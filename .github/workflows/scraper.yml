@@ -2,7 +2,7 @@ name: Scraper Latvia
 
 on:
   schedule:
-    - cron: '45 9 */2 * *'
+    - cron: '38 10,22 * * *'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
